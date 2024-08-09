@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    height: 695px;
+    border: solid 2px black;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+
+    width: 60%;
+    height: 500px;
+    border-radius: 30px;
+
+}
+
+.right-part{
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+    background-image: url(bg.png);
+
+}
+
+.login-part{
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 30px 30px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-box{
+    width: 80%;
+    height: 80%;
+}
+
+.signup-title{
+    width: 100%;
+    height: 14.2%;
+   /* border: solid 2px black; */
+}
+
+.signup{
+    font-size: 1.9em;
+    font-weight: 550;
+}
+
+.email{
+    width: 100%;
+    height: 17.2.5%;
+    /* border: solid 2px black; */
+}
+
+.emailtitle{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.emailform{
+    width: 100%;
+    padding: 8px;
+    border: solid 1px gray;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.password{
+    width: 100%;
+    height: 17.2.5%;
+    /* border: solid 2px black; */
+}
+
+.passwordtitle{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.passwordform{
+    width: 100%;
+    padding: 8px;
+    border: solid 1px gray;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.show-password{
+    width: 100%;
+    height: 8%;
+    /* border: solid 2px black; */
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.showpassword{
+    font-size: 0.8em;
+}
+
+.sign-up{
+    width: 100%;
+    height: 14.2%;
+    /* border: solid 2px black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgreen;
+}
+
+.button-title{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.middle-question{
+    width: 100%;
+    height: 14.2%;
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue{
+    width: 100%;
+    height: 14.2%;
+    /* border: solid 2px black; */
+}
+
+.google-button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: solid 2px lightskyblue;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.boxi-google{
+    font-size: 1.8em;
+}
+
+.google-title{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
